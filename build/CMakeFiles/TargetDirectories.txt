@@ -1,0 +1,8 @@
+/Users/hipex/Geant4_project/TEST/build/CMakeFiles/install/local.dir
+/Users/hipex/Geant4_project/TEST/build/CMakeFiles/install/strip.dir
+/Users/hipex/Geant4_project/TEST/build/CMakeFiles/install.dir
+/Users/hipex/Geant4_project/TEST/build/CMakeFiles/list_install_components.dir
+/Users/hipex/Geant4_project/TEST/build/CMakeFiles/rebuild_cache.dir
+/Users/hipex/Geant4_project/TEST/build/CMakeFiles/edit_cache.dir
+/Users/hipex/Geant4_project/TEST/build/CMakeFiles/PROJECT_TEST.dir
+/Users/hipex/Geant4_project/TEST/build/CMakeFiles/example.dir
