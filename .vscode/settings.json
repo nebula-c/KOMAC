@@ -65,6 +65,7 @@
         "thread": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "*.icc": "cpp"
+        "*.icc": "cpp",
+        "mat": "cpp"
     }
 }

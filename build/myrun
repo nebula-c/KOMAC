@@ -1,5 +1,5 @@
 /gps/particle proton
 /gps/direction 0 0 1
-/gps/energy 100 MeV
+/gps/energy 20 MeV
 
 /run/beamOn 10000

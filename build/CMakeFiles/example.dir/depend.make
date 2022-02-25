@@ -586,6 +586,8 @@ CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Gea
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4AuxiliaryNavServices.icc
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4BlockingList.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4BlockingList.icc
+CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4BooleanSolid.hh
+CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4BooleanSolid.icc
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4BoundingEnvelope.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4Box.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4Box.icc
@@ -596,6 +598,7 @@ CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Gea
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4DCofThisEvent.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4DataVector.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4DataVector.icc
+CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4DisplacedSolid.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4DynamicParticle.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4DynamicParticle.icc
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4ElectronOccupancy.hh
@@ -713,6 +716,7 @@ CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Gea
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4SteppingManager.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4String.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4String.icc
+CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4SubtractionSolid.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4SystemOfUnits.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4Threading.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4ThreeVector.hh
@@ -730,6 +734,8 @@ CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Gea
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4TrackingMessenger.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4TrajectoryContainer.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4Transform3D.hh
+CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4Tubs.hh
+CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4Tubs.icc
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4Types.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4UAdapter.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4UBox.hh
@@ -738,6 +744,7 @@ CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Gea
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4UImessenger.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4UIparameter.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4UItokenNum.hh
+CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4UTubs.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4UserStackingAction.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4UserSteppingAction.hh
 CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o: /usr/local/include/Geant4/G4UserTrackingAction.hh

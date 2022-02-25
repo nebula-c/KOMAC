@@ -587,6 +587,8 @@ CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o
  /usr/local/include/Geant4/G4AuxiliaryNavServices.icc
  /usr/local/include/Geant4/G4BlockingList.hh
  /usr/local/include/Geant4/G4BlockingList.icc
+ /usr/local/include/Geant4/G4BooleanSolid.hh
+ /usr/local/include/Geant4/G4BooleanSolid.icc
  /usr/local/include/Geant4/G4BoundingEnvelope.hh
  /usr/local/include/Geant4/G4Box.hh
  /usr/local/include/Geant4/G4Box.icc
@@ -597,6 +599,7 @@ CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o
  /usr/local/include/Geant4/G4DCofThisEvent.hh
  /usr/local/include/Geant4/G4DataVector.hh
  /usr/local/include/Geant4/G4DataVector.icc
+ /usr/local/include/Geant4/G4DisplacedSolid.hh
  /usr/local/include/Geant4/G4DynamicParticle.hh
  /usr/local/include/Geant4/G4DynamicParticle.icc
  /usr/local/include/Geant4/G4ElectronOccupancy.hh
@@ -714,6 +717,7 @@ CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o
  /usr/local/include/Geant4/G4SteppingManager.hh
  /usr/local/include/Geant4/G4String.hh
  /usr/local/include/Geant4/G4String.icc
+ /usr/local/include/Geant4/G4SubtractionSolid.hh
  /usr/local/include/Geant4/G4SystemOfUnits.hh
  /usr/local/include/Geant4/G4Threading.hh
  /usr/local/include/Geant4/G4ThreeVector.hh
@@ -731,6 +735,8 @@ CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o
  /usr/local/include/Geant4/G4TrackingMessenger.hh
  /usr/local/include/Geant4/G4TrajectoryContainer.hh
  /usr/local/include/Geant4/G4Transform3D.hh
+ /usr/local/include/Geant4/G4Tubs.hh
+ /usr/local/include/Geant4/G4Tubs.icc
  /usr/local/include/Geant4/G4Types.hh
  /usr/local/include/Geant4/G4UAdapter.hh
  /usr/local/include/Geant4/G4UBox.hh
@@ -739,6 +745,7 @@ CMakeFiles/example.dir/src/TESTDetectorConstruction.cc.o
  /usr/local/include/Geant4/G4UImessenger.hh
  /usr/local/include/Geant4/G4UIparameter.hh
  /usr/local/include/Geant4/G4UItokenNum.hh
+ /usr/local/include/Geant4/G4UTubs.hh
  /usr/local/include/Geant4/G4UserStackingAction.hh
  /usr/local/include/Geant4/G4UserSteppingAction.hh
  /usr/local/include/Geant4/G4UserTrackingAction.hh

@@ -21,7 +21,8 @@ void TESTSteppingAction::UserSteppingAction(const G4Step* step)
   G4int eventID = G4RunManager::GetRunManager() -> GetCurrentEvent() -> GetEventID();
   G4int volumeID = step -> GetPreStepPoint() -> GetPhysicalVolume() -> GetCopyNo();
   G4double totalEdep = step -> GetTotalEnergyDeposit();
-  G4int particleID = step-> GetTrack()->GetParticleDefinition()->GetParticleDefinitionID();
+  G4int particleID = step-> GetTrack()->GetParticleDefinition()->GetPDGEncoding();
+  //GetParticleDefinitionID();
   G4String particleName = step-> GetTrack()->GetParticleDefinition()->GetParticleName();
     
     
@@ -35,23 +36,21 @@ void TESTSteppingAction::UserSteppingAction(const G4Step* step)
 
 
   G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
-  analysisManager -> FillNtupleIColumn(0, eventID);
-  analysisManager -> FillNtupleIColumn(1, volumeID);
-  analysisManager -> FillNtupleIColumn(2, particleID);
-  analysisManager -> FillNtupleSColumn(3, particleName);
+  analysisManager -> FillNtupleIColumn(0, 0, eventID);
+  analysisManager -> FillNtupleIColumn(0, 1, volumeID);
+  analysisManager -> FillNtupleIColumn(0, 2, particleID);
+  analysisManager -> FillNtupleSColumn(0, 3, particleName);
 
-  analysisManager -> FillNtupleDColumn(4, prePosition.x());
-  analysisManager -> FillNtupleDColumn(5, prePosition.y());
-  analysisManager -> FillNtupleDColumn(6, prePosition.z());
+  analysisManager -> FillNtupleDColumn(0, 4, prePosition.x());
+  analysisManager -> FillNtupleDColumn(0, 5, prePosition.y());
+  analysisManager -> FillNtupleDColumn(0, 6, prePosition.z());
 
-  analysisManager -> AddNtupleRow();
+  analysisManager -> AddNtupleRow(0);
 
   TESTEventAction *eventAction = (TESTEventAction *) G4EventManager::GetEventManager() -> GetUserEventAction();
   if (volumeID == 1)
   {
     eventAction -> AddEnergyDeposit1(totalEdep);
-    analysisManager -> FillNtupleIColumn(1, 1, eventID);
-    analysisManager -> AddNtupleRow(1);
-
+    
   }   
 }
